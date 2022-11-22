@@ -1,6 +1,6 @@
 version: '2'
 services: 
-  gpsd:
+  rtl-433:
     privileged: true
     ipc: "host"
     build: "./rtl-433"
